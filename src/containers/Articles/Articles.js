@@ -12,8 +12,8 @@ class Articles extends Component {
         quantityShopList: 0,
     }
 
-    componentDidMount() {
-        axios.get(`http://swapi.dev/api/starships`)
+    componentDidMount() { 
+        axios.get(`https://swapi.dev/api/starships`)
           .then(res => {
               const ships = res.data.results;
               const updateShips = ships.map((ship,index) =>{

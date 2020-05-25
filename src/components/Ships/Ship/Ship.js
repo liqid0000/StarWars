@@ -10,7 +10,7 @@ export default (props) => {
   
    return (
     
-    <div className="col-sm-12 col-lg-6 mt-5">
+    <div className="col-sm-12 col-lg-6 ">
     <div className="card h-100">
     <div className="card-body">
       <h4 className="card-title">{props.name}</h4>
