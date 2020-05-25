@@ -23,7 +23,7 @@ class Articles extends Component {
                 }
               });
             this.setState({ships: updateShips})        
-          })
+          }) 
       }
 
 
