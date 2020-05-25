@@ -27,7 +27,9 @@ class Articles extends Component {
       }
 
 
-      addToShoppingList = (event, id) =>{       
+      addToShoppingList = (event, id) =>{    
+          
+        console.log("a");
           
         const itemShopListIndex = this.state.shopList.findIndex(p=>{
           return p.id === id;
