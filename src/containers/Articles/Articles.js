@@ -13,7 +13,7 @@ class Articles extends Component {
     }
 
     componentDidMount() { 
-        axios.get(`https://swapi.dev/api/starships`,{ crossDomain: false })
+        axios.get("https://swapi.dev/api/starships/",{ crossDomain: false })
           .then(res => {
               const ships = res.data.results;
               const updateShips = ships.map((ship,index) =>{
